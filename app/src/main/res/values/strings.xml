@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tugas Project 5</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="titlesignup">Create an account</string>
+    <string name="titleedit">Edit your account</string>
+    <string name="sub_title">Sub Title</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".views.fragments.BookmarkFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@android:color/white"
+        app:menu="@menu/sort_bookmark"
+        android:id="@+id/toolbar"
+        app:title="Pilih Daerah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/bookmark_list"
+        android:layout_below="@id/toolbar"
+        tools:listitem="@tools:sample/cities"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>
